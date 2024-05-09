@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet"><link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+   <div class="yukParent">
+    <div class="yukInput">
+        <h1>
+            tafsilotlar
+        </h1>
+        <p class="titleInput">
+            ismingiz
+        </p>
+        <input type="text" name="" id="yukname" >
+        <p class="titleInput">
+            telegram niki yoki email 
+        </p>
+        <input type="email" name="" id="yukemail" >
+        <p class="titleInput">
+            telefon raqamingiz
+        </p>
+        <input type="tel" id="yukPhoneNumber" >
+        <p class="titleInput">
+            telefon raqamingiz
+        </p>
+        <input type="tel" id="yukPhoneNumber" >
+    </div>
+    <div class="yukInput" >
+        <h1>
+            yuk parametrlari
+        </h1>
+        <p class="titleInput">
+            yuk og'irligi
+        </p>
+        <input type="number" name="" id="yukMassa" >
+        <p class="titleInput">
+            yuk uzunligi
+        </p>
+        <input type="number" name="" id="yukUzunligi" ">
+        <p class="titleInput">
+            yuk balandligi
+        </p>
+        <input type="number" name="" id="yukBalandligi">
+        <p class="titleInput">
+            yuk kengligi
+        </p>
+        <input type="number" name="" id="yukKengligi" >
+    </div>
+    <div  class="yukInput">
+        <h1>
+            yul manzillari
+        </h1>
+        <p class="titleInput">
+            yuk qayerdan olinadi
+        </p>
+        <select name="" id="qayerdan" >
+            <option value="toshkent">toshkent</option>
+            <option value="namangan">namangan</option>
+            <option value="andijon">andijon</option>
+            <option value="farg'ona">farg'ona</option>
+            <option value="jizzax">jizzax</option>
+            <option value="sirdaryo">sirdaryo</option>
+            <option value="samarqand">samarqand</option>
+            <option value="surxondaryo">surxondaryo</option>
+            <option value="qashqadaryo">qashqadaryo</option>
+            <option value="qoraqalpog'iston">qoraqalpog'iston</option>
+            <option value="xorazm">xorazm</option>
+            <option value="buxoro">buxoro</option>
+            <option value="navoiy">navoiy</option>
+        </select>
+        <p class="titleInput">
+            yuk qayerga yetkaziladi
+        </p>
+        <select name="" id="qayerga" >
+            <option value="toshkent">toshkent</option>
+            <option value="namangan">namangan</option>
+            <option value="andijon">andijon</option>
+            <option value="farg'ona">farg'ona</option>
+            <option value="jizzax">jizzax</option>
+            <option value="sirdaryo">sirdaryo</option>
+            <option value="samarqand">samarqand</option>
+            <option value="surxondaryo">surxondaryo</option>
+            <option value="qashqadaryo">qashqadaryo</option>
+            <option value="qoraqalpog'iston">qoraqalpog'iston</option>
+            <option value="xorazm">xorazm</option>
+            <option value="buxoro">buxoro</option>
+            <option value="navoiy">navoiy</option>
+        </select>
+        <p>
+            yo'l uzunligi
+        </p>
+        <input type="number" name="" id="yukMasofa" >
+        <button id="calculate" onclick="calaculatePrice ()">
+            narxini hisoblash
+        </button>
+        <button  onclick="sendTelegramMessage()">
+            elon berish
+        </button>
+        
+    </div>
+    
+        <div id="result">
+
+        </div>
+  
+   </div>
+
+    <script src="./yuk.js">
+
+
+    </script>
+</body>
+</html>

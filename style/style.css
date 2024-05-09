@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.macondo-regular {
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.container{
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    height: 700px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.yuk{
+    width: 504px;
+height: 504px;
+top: 260px;
+left: 184px;
+gap: 0px;
+border-radius: 50%;
+opacity: 0px;
+background:  #FF8F27;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.yukk{
+    width: 504px;
+height: 504px;
+top: 260px;
+left: 184px;
+gap: 0px;
+border-radius: 50%;
+opacity: 0px;
+background: #FC4040;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.logo{
+    max-width: 200px;
+    width: auto;
+    height: 200px;
+    align-items: center;
+}
+.titleP{
+    font-family: Josefin Sans;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    
+}
+.yuk:hover{
+    width: 504px;
+    height: 504px;
+    top: 260px;
+    left: 184px;
+    gap: 0px;
+    border-radius: 50%;
+    opacity: 0px;
+    background: radial-gradient(50% 50% at 50% 50%, #FF8F27 0%, #995618 100%);
+
+    
+}
+.yukk:hover{
+    width: 504px;
+    height: 504px;
+    top: 260px;
+    left: 184px;
+    gap: 0px;
+    border-radius: 50%;
+    opacity: 0px;
+    background: radial-gradient(50% 50% at 50% 50%, #FC4040 0%, #962626 100%);
+
+
+    
+}
+/* yukkk */
+.yukParent{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr ;
+    max-width: 1300px;
+    width: 100%;
+    align-items: center;
+    height: 500px;
+}
+input{
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #FF8F27;
+   margin: 10px 0 ;
+   height: 20px;
+}
+.yukInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 405px;
+    height: 646px;
+    top: 264px;
+    left: 80px;
+    gap: 0px;
+    border: 1px solid red;
+    opacity: 0px;
+    align-items: center;
+    
+}
+h1{
+    margin-top: -30px;
+gap: 0px;
+opacity: 0px;
+font-family: Josefin Sans;
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform:capitalize;
+color: #FF8F27;
+}
+p{
+gap: 0px;
+opacity: 0px;
+font-family: Futura Bk BT;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.77px;
+color: #76533499;
+text-transform: capitalize;
+text-align: start;
+}
+button{
+        width: 165px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    opacity: 0px;
+background-color: #FF8F27;
+border: none;
+color: white;
+margin-bottom: 10px;
+
+}
+
+select{
+    max-width: 200px;
+    width: 100%;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    opacity: 0px;
+    border: none;
+    border-bottom: 2px solid #FF8F27;
+}

@@ -8,12 +8,23 @@ function calaculatePrice () {
     let xajmi =yku*ykb*ykk;
     let narx;
 
-    if (ykb <= 1){
-         narx = xajmi*yko*ylm*100;
+    if ( yko < 1){
+        if (ykb <= 1 || yku <= 1 || ykb <= 1 ){
+            narx = (yku*10)*(ykb*10)*(ykk*10)*(yko*10)*ylm*10;
+       }
+       else{
+           narx = yko*yku*ykb*ykk*ylm*10;
+   
+       }
     }
     else{
-        narx = yko*yku*ykb*ykk*ylm*10;
-
+        if (ykb <= 1 || yku <= 1 || ykb <= 1 ){
+            narx = (yku*10)*(ykb*10)*(ykk*10)*yko*ylm;
+       }
+       else{
+           narx = yko*yku*ykb*ykk*ylm*10;
+   
+       }
     }
 
     
@@ -72,3 +83,11 @@ async function sendTelegramMessage() {
     }
     console.log(Name);
 }
+
+function someCala(){
+    const date1 = new Date();
+    const date2 = Date.now();
+
+    console.log( date1,date2)
+}
+someCala()

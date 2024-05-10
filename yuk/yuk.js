@@ -9,18 +9,37 @@ function calaculatePrice () {
     let narx;
 
     if ( yko < 1){
-        if (ykb <= 1 || yku <= 1 || ykb <= 1 ){
-            narx = (yku*10)*(ykb*10)*(ykk*10)*(yko*10)*ylm*10;
+        if (ykb <= 1){
+            narx = (yku)*(ykb*10)*(ykk)*(yko*10)*ylm*10;
        }
+       else if(yku <= 1)
+        {
+            narx = (yku*10)*(ykb)*(ykk)*(yko*10)*ylm*10;
+       }
+       else if(ykk <= 1)
+        {
+            narx = (ykk*10)*(ykb)*(yku)*(yko*10)*ylm*10;
+       }
+       
        else{
-           narx = yko*yku*ykb*ykk*ylm*10;
+           narx = yko*yku*ykb*ykk*ylm*100;
    
        }
     }
     else{
-        if (ykb <= 1 || yku <= 1 || ykb <= 1 ){
-            narx = (yku*10)*(ykb*10)*(ykk*10)*yko*ylm;
+        if (ykb <= 1){
+            narx = (yku)*(ykb*10)*(ykk)*(yko*10)*ylm*10;
        }
+       else if(yku <= 1)
+        {
+            narx = (yku*10)*(ykb)*(ykk)*(yko*10)*ylm*10;
+       }
+       else if(ykk <= 1)
+        {
+            narx = (ykk*10)*(ykb)*(yku)*(yko*10)*ylm*10;
+       }
+       
+       
        else{
            narx = yko*yku*ykb*ykk*ylm*10;
    
